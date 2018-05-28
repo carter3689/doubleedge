@@ -1,0 +1,37 @@
+.logo-height{
+  max-height: 100px;
+}
+.header-image{
+  background-size:cover;
+  height: 100vh;
+  background-image: url(../../assets/header-image.jpg);
+}
+.header-image-text{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.heading-text{
+  text-transform: uppercase;
+  margin:0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+.btn-brand {
+    color: #fff;
+    background-color: #8c272b;
+    border-color: #8c272b;
+  }
+  .btn.btn-circle {
+      border-radius: 1.875rem;
+  }
+  .btn-outline-new-white {
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fff;
+}
